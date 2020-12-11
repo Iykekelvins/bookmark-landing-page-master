@@ -539,7 +539,7 @@ form button:hover{
         display: flex;
         justify-content: center;
         position: absolute;
-        bottom: 3rem;
+        bottom: 6rem;
         right: 0;
         left: 0;
     }
@@ -691,8 +691,7 @@ form button:hover{
     }
 
     .hero img{
-        height: revert;
-        width: 100%;
+        height: 240px;
     }
 
     .features{
@@ -752,6 +751,13 @@ form button:hover{
 }
 
 @media screen and (max-width:338px){
+    .logo{
+        height: 20px;
+    }
+    .hero img{
+        height: 170px;
+    }
+
     p{
         font-size: 1rem;
     }
