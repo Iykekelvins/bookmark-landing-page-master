@@ -47,8 +47,7 @@ function loadTab(){
             if(tab.classList.contains('tab-2')){
                header.innerText = features.second.header;
                paragraph.innerText = features.second.text;
-               image.src = features.second.img;
-                
+               image.src = features.second.img;             
            } 
            
            else if(tab.classList.contains('tab-3')){
@@ -151,6 +150,7 @@ function success(input){
     const formInput = input.parentElement;
     formInput.className = 'form-input success';
 }
+
 function validateEmail(email){
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 }

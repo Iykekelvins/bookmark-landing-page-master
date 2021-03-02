@@ -75,12 +75,13 @@ button{
     padding: .5rem .8rem;
     background-color: var(--soft-red);
     text-transform: uppercase;
+    border: 1px solid transparent
 }
 
 .login-btn:hover, .login-btn:active{
     color: var(--soft-red);
     background: transparent;
-    border: 1px solid var(--soft-red);
+    border-color: var(--soft-red);
 }
 
 .hero{
@@ -112,23 +113,25 @@ button{
 .chrome-btn{
     color: white;
     background-color: var(--soft-blue);
+    border: 1px solid transparent;
 }
 
 .chrome-btn:hover, .chrome-btn:active{
     color: var(--soft-blue);
     background: transparent;
-    border: 1px solid var(--soft-blue);
+    border-color: var(--soft-blue);
 }
 
 .firefox-btn{
     color: var(--very-dark-blue);
     background-color: hsl(229, 25%, 87%);
+    border: 1px solid transparent;
     margin-left: 5px;
 }
 
 .firefox-btn:hover, .firefox-btn:active{
     background: transparent;
-    border: 1px solid var(--very-dark-blue);
+    border-color: var(--very-dark-blue);
 }
 
 .features > h2{
@@ -242,12 +245,13 @@ button{
     background-color: var(--soft-blue);
     padding: .7rem 1rem;
     margin-top: 2rem;
+    border: 1px solid transparent;
 }
 
 .install-btn:hover, .install-btn:active{
     color: var(--soft-blue);
     background: transparent;
-    border: 1px solid var(--soft-blue);
+    border-color: var(--soft-blue);
 }
 
 .firefox{
@@ -340,6 +344,7 @@ form{
 form button{
     background: var(--soft-red);
     color: white;
+    border: 1px solid var(--soft-red);
     padding: .7rem;
     margin-left: 10px;
     height: max-content;
@@ -348,7 +353,7 @@ form button{
 form button:hover{
     color: var(--soft-red);
     background: white;
-    border: 1px solid var(--soft-red);
+    border-color: var(--soft-red);
 }
 
 .form-input{
